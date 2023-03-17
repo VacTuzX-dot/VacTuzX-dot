@@ -3,7 +3,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
-(img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F24.media.tumblr.com%2F8210fd413c5ce209678ef82d65731443%2Ftumblr_mjphnqLpNy1s5jjtzo1_400.gif&f=1&nofb=1&ipt=537e266728d8be5a4ac0a6295ff0fa3fd82f8b96ec667defa33b83711bc8f44a&ipo=images")
+<img align="right" alt="Coding" width="400" src="https://64.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif">
 
 
 <h3 align="left">Languages and Tools:</h3>
