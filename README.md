@@ -24,6 +24,8 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
 </p>
 
-<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vactuzx-dot" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vactuzx-dot" /></p>
+<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vactuzx-dot" /></p>
+<hr/>
 
 <hr/>
