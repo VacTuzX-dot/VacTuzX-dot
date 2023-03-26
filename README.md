@@ -6,7 +6,7 @@
 - 💬 Ask me about **JavaScript, Node.js, React, MongoDB**
 - 📫 How to reach me: **[email@example.com](mailto:email@example.com)**
 - 😄 Pronouns: **he/him**
-<a href="https://discord.com/users/942687569693528084"> <img align="left" src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=10px&hideDiscrim=false"/></a>
+
 <h3 align="left">🛠️ Languages and Tools</h3>
 
 <p align="left">
@@ -27,5 +27,7 @@
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vactuzx-dot" /></p>
 <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vactuzx-dot" /></p>
 <hr/>
+
+<a href="https://discord.com/users/942687569693528084"> <img align="left" src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=10px&hideDiscrim=false"/></a>
 
 <hr/>
