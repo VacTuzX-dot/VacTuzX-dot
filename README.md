@@ -43,6 +43,28 @@
   </a>
 </p>
 
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vactuzx-dot" /></p>
-<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vactuzx-dot" /></p>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-l
+angs?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en&layout=compact" alt="vactuzx-dot" />
+
+</p>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=vactuzx-dot&show_icons=true&theme=tokyonight&hide_border=true&locale=en" alt="vactuzx-dot" />
+</p>
 <hr/>
+<h3 align="left">Projects:</h3>
+Personal Portfolio Website
+Discord Bot Template
+Online Shop Web App
+<hr/>
+<h3 align="left">Contact Me:</h3>
+<p align="left">
+  <a href="https://www.linkedin.com/in/yourusername/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yourusername" height="30" width="40" /></a>
+  <a href="https://twitter.com/yourusername" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="yourusername" height="30" width="40" /></a>
+  <a href="https://instagram.com/yourusername" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="yourusername" height="30" width="40" /></a>
+  <a href="https://www.youtube.com/c/yourusername" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="yourusername" height="30" width="40" /></a>
+  <a href="https://www.hackerrank.com/yourusername" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" alt="yourusername" height="30" width="40" /></a>
+</p> 
+<p align="left">
+Feel free to reach out if you want to collaborate on a project or just to say hi!
+</p>
