@@ -5,8 +5,8 @@
     <a href="https://discord.com/users/942687569693528084">
     <img src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=10px&hideDiscrim=true&animated=false&hideStatus=true&hideTimestamp=true" alt="Discord Profile"/>
     </a>
-  <img alt="Cute Cat GIF" width="200px" height="200px" src="https://64.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"/>
   </p>
+   <img alt="Cute Cat GIF" width="200px" height="200px" src="https://64.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"/>
 </div>
 
 <br clear="both"/>
