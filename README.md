@@ -1,6 +1,5 @@
 <h3 align="center">A Passionate Newbie Developer from Chiang Mai</h3>
 <div align="center">
-  <h3>Connect with Me:</h3>
     <a href="https://discord.com/users/942687569693528084">
     <img src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=10px&hideDiscrim=true&animated=false&hideStatus=true&hideTimestamp=true" alt="Discord Profile"/>
     </a>
