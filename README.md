@@ -5,6 +5,7 @@
     <img src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=10px&hideDiscrim=true&animated=false&hideStatus=true&hideTimestamp=true" alt="Discord Profile"/>
     </a>
 </div>
+
 <br clear="both"/>
 <h3 align="center">Languages and Tools:</h3>
 <div align="center">
@@ -26,6 +27,6 @@
 </div>
 <br clear="both"/>
 <div align="center">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VacTuzX-dot&layout=donut&theme=codeSTACKr">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VacTuzX-dot&layout=compact&exclude_repo=Robotframwork&hide=Robotframwork&theme=codeSTACKr">
 </div>
 <hr/>
