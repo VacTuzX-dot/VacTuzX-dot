@@ -24,5 +24,5 @@
 	<code><img width="40" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python"/></code>
 	<code><img width="40" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/a57a85ba-e2dd-4036-85b6-7e1532391627" alt="Arduino" title="Arduino"/></code>
 </div>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pylapp&layout=compact&exclude_repo=Robotframwork&hide=Robotframwork)](https://github.com/VacTuzX-dot/github-readme-stats)
+<a>https://raw.githubusercontent.com/VacTuzX-dot/github-stats-transparent/output/generated/languages.svg</a>
 <hr/>
