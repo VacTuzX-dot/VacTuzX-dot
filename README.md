@@ -2,7 +2,7 @@
 <br clear="both"/>
 <div align="center">
     <a href="https://discord.com/users/942687569693528084">
-    <img src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=8px&hideDiscrim=false&animated=true&hideStatus=true&hideTimestamp=false" alt="Discord Profile"/>
+    <img src="https://lanyard-profile-readme.vercel.app/api/942687569693528084?bg=1a1b26&borderRadius=8px" alt="Discord Profile"/>
     </a>
 </div>
 
