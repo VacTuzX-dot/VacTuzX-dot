@@ -1,7 +1,7 @@
 <h1 align="center">A Passionate Beginner Developer from Chiang Mai</h1>
 <br clear="both"/>
 <div align="center">
-    <a href="https://discord.com/users/942687569693528084">
+    <a href="https://discord.com/users/942687569693528084" target="_blank">
 	<img src="https://lanyard.cnrad.dev/api/942687569693528084?bg=000000&borderRadius=8px&animatedDecoration=true"/>
     </a>
 </div>
