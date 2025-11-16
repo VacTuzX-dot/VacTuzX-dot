@@ -40,9 +40,13 @@
 ![Manjaro](https://img.shields.io/badge/-Manjaro-35BF5C?style=flat-square&logo=manjaro&logoColor=white)
 
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Bruno](https://img.shields.io/badge/-Bruno-FF6C37?style=flat-square&logoColor=white)
+![TablePlus](https://img.shields.io/badge/-TablePlus-2396F3?style=flat-square&logoColor=white)
+![Navicat](https://img.shields.io/badge/-Navicat-1C7F3E?style=flat-square&logoColor=white)
+
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows_11-0078D4?style=flat-square&logo=windows-11&logoColor=white)
-![Ghostty](https://img.shields.io/badge/-Ghostty-000000?style=flat-square&logo=ghostty&logoColor=white)
+![Ghostty](https://img.shields.io/badge/-Ghostty-000000?style=flat-square&logoColor=white)
 
 ---
 
