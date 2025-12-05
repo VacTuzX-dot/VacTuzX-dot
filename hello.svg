@@ -1,0 +1,178 @@
+<svg viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">hello</title>
+  <desc id="desc">Static hello art inspired by dtinth/dtinth Hello.tsx.</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d7fc70" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#7fcf70" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#111" stop-opacity="0.42" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#0b0b0b" flood-opacity="0.72" />
+    </filter>
+    <g id="box1" fill-rule="evenodd">
+      <path
+        d="M127.957 0l127.905 73.846c-18.876 29.11-35.763 47.966-50.66 56.567-14.897 8.601-40.645 14.36-77.245 17.28-38.622-2.887-65.41-8.646-80.364-17.28-14.954-8.633-30.801-27.49-47.541-56.567L127.957 0z"
+        fill="#8B8685"
+      />
+      <path
+        d="M127.957 147.692c27.272 28.552 40.907 51.603 40.907 69.152s-13.635 43.73-40.907 78.54L.052 221.539V73.846l127.905 73.846z"
+        fill="#656463"
+      />
+      <path fill="#353433" d="M255.862 73.846v147.692l-127.905 73.847V147.692z" />
+    </g>
+    <g id="box2" fill-rule="evenodd">
+      <path
+        d="M127.957 0l127.905 73.846c-18.876 29.11-35.763 47.966-50.66 56.567-14.897 8.601-40.645 14.36-77.245 17.28-38.622-2.887-65.41-8.646-80.364-17.28-14.954-8.633-30.801-27.49-47.541-56.567L127.957 0z"
+        fill="#656463"
+      />
+      <path
+        d="M127.957 147.692c27.272 28.552 40.907 51.603 40.907 69.152s-13.635 43.73-40.907 78.54L.052 221.539V73.846l127.905 73.846z"
+        fill="#8B8685"
+      />
+      <path fill="#353433" d="M255.862 73.846v147.692l-127.905 73.847V147.692z" />
+    </g>
+  </defs>
+  <rect width="1920" height="1080" fill="#353433" />
+  <g transform="rotate(-9 960 540) translate(-80 -100)" opacity="0.9">
+    <use href="#box2" x="-640" y="-220" />
+    <use href="#box1" x="-384" y="-220" />
+    <use href="#box2" x="-128" y="-220" />
+    <use href="#box1" x="128" y="-220" />
+    <use href="#box2" x="384" y="-220" />
+    <use href="#box1" x="640" y="-220" />
+    <use href="#box2" x="896" y="-220" />
+    <use href="#box1" x="1152" y="-220" />
+    <use href="#box2" x="1408" y="-220" />
+    <use href="#box1" x="1664" y="-220" />
+    <use href="#box2" x="1920" y="-220" />
+    <use href="#box1" x="2176" y="-220" />
+    <use href="#box1" x="-512" y="0" />
+    <use href="#box2" x="-256" y="0" />
+    <use href="#box1" x="0" y="0" />
+    <use href="#box2" x="256" y="0" />
+    <use href="#box1" x="512" y="0" />
+    <use href="#box2" x="768" y="0" />
+    <use href="#box1" x="1024" y="0" />
+    <use href="#box2" x="1280" y="0" />
+    <use href="#box1" x="1536" y="0" />
+    <use href="#box2" x="1792" y="0" />
+    <use href="#box1" x="2048" y="0" />
+    <use href="#box2" x="2304" y="0" />
+    <use href="#box1" x="-640" y="220" />
+    <use href="#box2" x="-384" y="220" />
+    <use href="#box1" x="-128" y="220" />
+    <use href="#box2" x="128" y="220" />
+    <use href="#box1" x="384" y="220" />
+    <use href="#box2" x="640" y="220" />
+    <use href="#box1" x="896" y="220" />
+    <use href="#box2" x="1152" y="220" />
+    <use href="#box1" x="1408" y="220" />
+    <use href="#box2" x="1664" y="220" />
+    <use href="#box1" x="1920" y="220" />
+    <use href="#box2" x="2176" y="220" />
+    <use href="#box2" x="-512" y="440" />
+    <use href="#box1" x="-256" y="440" />
+    <use href="#box2" x="0" y="440" />
+    <use href="#box1" x="256" y="440" />
+    <use href="#box2" x="512" y="440" />
+    <use href="#box1" x="768" y="440" />
+    <use href="#box2" x="1024" y="440" />
+    <use href="#box1" x="1280" y="440" />
+    <use href="#box2" x="1536" y="440" />
+    <use href="#box1" x="1792" y="440" />
+    <use href="#box2" x="2048" y="440" />
+    <use href="#box1" x="2304" y="440" />
+    <use href="#box2" x="-640" y="660" />
+    <use href="#box1" x="-384" y="660" />
+    <use href="#box2" x="-128" y="660" />
+    <use href="#box1" x="128" y="660" />
+    <use href="#box2" x="384" y="660" />
+    <use href="#box1" x="640" y="660" />
+    <use href="#box2" x="896" y="660" />
+    <use href="#box1" x="1152" y="660" />
+    <use href="#box2" x="1408" y="660" />
+    <use href="#box1" x="1664" y="660" />
+    <use href="#box2" x="1920" y="660" />
+    <use href="#box1" x="2176" y="660" />
+    <use href="#box1" x="-512" y="880" />
+    <use href="#box2" x="-256" y="880" />
+    <use href="#box1" x="0" y="880" />
+    <use href="#box2" x="256" y="880" />
+    <use href="#box1" x="512" y="880" />
+    <use href="#box2" x="768" y="880" />
+    <use href="#box1" x="1024" y="880" />
+    <use href="#box2" x="1280" y="880" />
+    <use href="#box1" x="1536" y="880" />
+    <use href="#box2" x="1792" y="880" />
+    <use href="#box1" x="2048" y="880" />
+    <use href="#box2" x="2304" y="880" />
+    <use href="#box1" x="-640" y="1100" />
+    <use href="#box2" x="-384" y="1100" />
+    <use href="#box1" x="-128" y="1100" />
+    <use href="#box2" x="128" y="1100" />
+    <use href="#box1" x="384" y="1100" />
+    <use href="#box2" x="640" y="1100" />
+    <use href="#box1" x="896" y="1100" />
+    <use href="#box2" x="1152" y="1100" />
+    <use href="#box1" x="1408" y="1100" />
+    <use href="#box2" x="1664" y="1100" />
+    <use href="#box1" x="1920" y="1100" />
+    <use href="#box2" x="2176" y="1100" />
+  </g>
+  <rect width="1920" height="1080" fill="url(#glow)" opacity="0.48" />
+  <g transform="translate(960 540)">
+    <g transform="rotate(-14)">
+      <text
+        x="-12"
+        y="-12"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif"
+        font-weight="800"
+        font-size="310"
+        letter-spacing="-12"
+        fill="#d7fc70"
+        opacity="0.9"
+      >
+        hello
+      </text>
+      <text
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif"
+        font-weight="800"
+        font-size="310"
+        letter-spacing="-12"
+        fill="#f8f8f5"
+        stroke="#1a1a1a"
+        stroke-width="10"
+        stroke-linejoin="round"
+        filter="url(#shadow)"
+      >
+        hello
+      </text>
+    </g>
+    <text
+      y="190"
+      text-anchor="middle"
+      font-family="Inter, 'Segoe UI', Arial, sans-serif"
+      font-size="44"
+      font-weight="700"
+      fill="#d7fc70"
+      letter-spacing="2"
+    >
+      VacTuzX
+    </text>
+    <text
+      y="232"
+      text-anchor="middle"
+      font-family="Inter, 'Segoe UI', Arial, sans-serif"
+      font-size="26"
+      font-weight="600"
+      fill="#c7c7c7"
+    >
+      Fullstack web developer · Chiang Mai
+    </text>
+  </g>
+</svg>
