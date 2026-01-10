@@ -1,60 +1,98 @@
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ██╗   ██╗ █████╗  ██████╗████████╗██╗   ██╗███████╗██╗  ██╗                ║
-║   ██║   ██║██╔══██╗██╔════╝╚══██╔══╝██║   ██║╚══███╔╝╚██╗██╔╝                ║
-║   ██║   ██║███████║██║        ██║   ██║   ██║  ███╔╝  ╚███╔╝                 ║
-║   ╚██╗ ██╔╝██╔══██║██║        ██║   ██║   ██║ ███╔╝   ██╔██╗                 ║
-║    ╚████╔╝ ██║  ██║╚██████╗   ██║   ╚██████╔╝███████╗██╔╝ ██╗                ║
-║     ╚═══╝  ╚═╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝                ║
-║                                                                              ║
-║                    Fullstack Web Developer • Chiang Mai                      ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
 <div align="center">
 
-[![Discord](https://lanyard.cnrad.dev/api/942687569693528084?bg=000000&borderRadius=8px)](https://discord.com/users/942687569693528084)
+# 👋 Hey, I'm VacTuzX
 
-</div>
+### 🚀 Fullstack Web Developer from Chiang Mai, Thailand
+
+<br>
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/942687569693528084?theme=dark&bg=0d1117&borderRadius=10px&animated=true&idleMessage=Probably%20coding...)](https://discord.com/users/942687569693528084)
+
+<br>
 
 ---
 
-## Stack
+## 🛠️ Tech Stack
 
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="48" height="48" />
+<br>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="48" height="48" />
+<br>TypeScript
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="48" height="48" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="48" height="48" />
+<br>Next.js
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vite" alt="Vite" width="48" height="48" />
+<br>Vite
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" width="48" height="48" />
+<br>Tailwind
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="48" height="48" />
+<br>Python
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=rust" alt="Rust" width="48" height="48" />
+<br>Rust
+</td>
+<td align="center" width="96">
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="48" height="48" />
+<br>Docker
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="48" height="48" />
+<br>Linux
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=arduino" alt="Arduino" width="48" height="48" />
+<br>Arduino
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" alt="Git" width="48" height="48" />
+<br>Git
+</td>
+</tr>
+</table>
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Debian](https://img.shields.io/badge/-Debian-A81D33?style=flat-square&logo=debian&logoColor=white)
-![Manjaro](https://img.shields.io/badge/-Manjaro-35BF5C?style=flat-square&logo=manjaro&logoColor=white)
-
-![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Bruno](https://img.shields.io/badge/-Bruno-FF6C37?style=flat-square&logoColor=white)
-![TablePlus](https://img.shields.io/badge/-TablePlus-2396F3?style=flat-square&logoColor=white)
-![Navicat](https://img.shields.io/badge/-Navicat-1C7F3E?style=flat-square&logoColor=white)
-
-![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
-![Windows](https://img.shields.io/badge/-Windows_11-0078D4?style=flat-square&logo=windows-11&logoColor=white)
-![Ghostty](https://img.shields.io/badge/-Ghostty-000000?style=flat-square&logoColor=white)
+<br>
 
 ---
 
-<div align="center">
+## 📊 GitHub Stats
 
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=VacTuzX-dot&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=VacTuzX-dot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="165" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=VacTuzX-dot&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="165" />
 
-[![Discord](https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/942687569693528084)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/VacTuzX-dot)
+<br>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=VacTuzX-dot&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff)](https://github.com/VacTuzX-dot)
+
+<br>
+
+---
+
+## 🔗 Connect with Me
+
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/942687569693528084)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VacTuzX-dot)
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 
 </div>
