@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👋 Hey, I'm VacTuzX
+# Hey, I'm VacTuzX
 
-### 🚀 Fullstack Web Developer from Chiang Mai, Thailand
+### Fullstack Web Developer from Chiang Mai, Thailand
 
 <br>
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
@@ -73,14 +73,14 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=VacTuzX-dot&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="165" />
 <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=VacTuzX-dot&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="165" />
 
 ---
 
-## 🔗 Connect with Me
+## Connect w/Me
 
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/942687569693528084)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VacTuzX-dot)
