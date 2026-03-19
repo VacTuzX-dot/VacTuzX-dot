@@ -14,7 +14,7 @@
 
 - ชื่อที่ใช้: Meo
 - กำลังศึกษา: ปวส. ปี 2 สาขาเทคโนโลยีสารสนเทศ ที่ CMTC
-- แนวที่สนใจ: Web Development, Gaming Peripherals
+- แนวที่สนใจ: Tech Enthusiast, Gaming Peripherals
 - Techที่ใช้งานบ่อย: TypeScript, Next.js, HTML/CSS
 
 ## Discord Presence
