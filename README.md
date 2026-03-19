@@ -4,8 +4,7 @@
 
 `IT Student | CMTC | Chiang Mai, Thailand`
 
-นักศึกษา ปวส. ปี 2 สาขาเทคโนโลยีสารสนเทศ ที่ CMTC  
-สนใจการพัฒนาเว็บแบบ Fullstack และการเรียนรู้เทคโนโลยีใหม่ ๆ
+นักศึกษา ปวส. ปี 2 สาขาเทคโนโลยีสารสนเทศ ที่ CMTC
 
 [ GitHub ](https://github.com/VacTuzX-dot) | [ Discord ](https://discord.com/users/942687569693528084)
 
