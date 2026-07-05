@@ -113,3 +113,15 @@
 
 - **Action:** Dropped hover feature entirely (hover CSS rule, transition, hit rect, meog wrapper, pointer-events attrs — user had already stripped part of the CSS by hand). Peek retimed: 13s cycle = hidden 5s, visible ~8s.
 - **Why:** User call — hover only worked outside GitHub anyway; periodic peek is the one behavior every context shows.
+
+---
+
+# 2026-07-06 — Banner v7: quasi-random cat positions
+
+- **Action:** 5 cat instances (<use> from one <defs> shape) at: above "(Meo)", bottom edge ×2 (x=180, x=750), right edge (rotate -90), top edge upside-down (scale(s,-s)). Each on its own peek cycle with co-prime durations {13,17,19,23,29}s, visible 8s, seeded random negative delays.
+- **Why:** User: random position every appearance, no fixed template. GitHub <img> runs no JS — co-prime cycles are the static-SVG approximation: combined pattern repeats at LCM ≈ 27 hours, unobservable in a session. Scrutinize pass rejected regen-time randomness (one spot per deploy) and JS (never executes).
+- **Debug ledger (2 real bugs + 1 false lead):**
+  1. Shape count collapsed 58→18: cat loop reassigned `H` (banner height) to hidden-time. Renamed to `hid`. Lesson: 📌 GENERAL: single-letter module globals (W, H) are landmines in later-added loops — grep before reusing a name.
+  2. False lead: qlmanage showed 3/5 cats missing → blamed <use>+clip, inlined everything (+4KB). Cross-referencing runs disproved it: an animation-stripped debug showed all 5 via <use>. Real cause: qlmanage evaluates CSS animations at t=0 including negative delays — cats whose snapshot fell in the hidden phase were correctly invisible. Reverted to <use>.
+  - Lesson: 📌 GENERAL: "renderer X doesn't support feature Y" needs a minimal pair (feature on/off, all else equal) before acting — my first "proof" changed two variables at once (use→inline AND class/animation presence).
+- **Result:** 26.9KB, valid XML, 60 shapes, all 5 positions render correctly (verified with animations stripped). Not committed — awaiting user go.
