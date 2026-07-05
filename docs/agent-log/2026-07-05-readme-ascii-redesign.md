@@ -108,3 +108,8 @@
 
 - **Action:** Cat fades (opacity 0→1, 0.3s) alongside the slide on hover; peek keyframes now fade too. Unhover fades out via a 0.6s animation-delay window — base values + transition apply before the peek cycle resumes, avoiding the instant-hide jump.
 - **Lesson:** animation-delay on re-applied CSS animation doubles as a "transition grace period" — cheap way to get smooth exit when a keyframe animation would otherwise snap the element to its resting state.
+
+## v6.3 — hover removed, faster peek cadence
+
+- **Action:** Dropped hover feature entirely (hover CSS rule, transition, hit rect, meog wrapper, pointer-events attrs — user had already stripped part of the CSS by hand). Peek retimed: 13s cycle = hidden 5s, visible ~8s.
+- **Why:** User call — hover only worked outside GitHub anyway; periodic peek is the one behavior every context shows.
