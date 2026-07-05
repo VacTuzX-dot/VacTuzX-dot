@@ -43,3 +43,29 @@
 - Unchanged: docs/agent-log/
 - Remaining: exact CMU rendering everywhere requires embedding a subset font as base64 (needs fonttools) — deferred; commit/push awaiting user go
 - Mistakes & dead ends: Hack font embed path abandoned (user switched font mid-task); v1 render had edge bleed + invisible grid, caught by rendering preview instead of shipping blind.
+
+---
+
+# 2026-07-05 — Banner v3: real CMU font, vectorized, animated
+
+## Font discovery
+
+- **Action:** Inspected ~/Library/Fonts/CMU-*.otf name tables with fontTools.
+- **Why:** v2 fell back to Georgia (SVG in GitHub `<img>` loads no external fonts). User demanded real CMU.
+- **Result:** Family "CMU" = Chiang Mai University typeface (sans-serif, 3 weights + italics) — NOT Computer Modern (LaTeX). User is in Chiang Mai; this is the intended font.
+- **Lesson:** 📌 GENERAL: font names collide — "CMU" means Computer Modern Unicode to a LaTeX user and Chiang Mai University to a northern-Thai user. Check the actual file's name table before assuming.
+
+## Vectorize + animate
+
+- **Action:** Rewrote generator in Python (fontTools SVGPathPen): "Taweesak (Meo)" + "Fig. 1 — meo.in.th" converted to `<path>` outlines from CMU-LightItalic.otf. Compared Italic vs LightItalic renders; picked LightItalic (luxury = thin weight). CSS animations inside SVG: box field drifts (80s alternate), ~20% of boxes twinkle (staggered negative delays), nebula breathes (26s), gold hairline rule draws in once (1.2s). `prefers-reduced-motion` disables all and forces the rule visible.
+- **Why:** Path outlines render identically on every machine — no font stack gamble. Anti-AI-slop changes: left-aligned composition (was centered glow = template look), no text glow, champagne-gold hairline `#cdb488` against purple monotone, figure-caption detail doubling as link affordance. Kerning: SVGPathPen ignores GPOS — manual kern pairs eyeballed from render (`Ta` -90/1000em).
+- **Result:** 14.3KB SVG, 50 boxes, valid XML, layout verified via qlmanage render. Animation not visible in static preview (qlmanage doesn't run CSS) — GitHub serves to browsers where SVG-in-img CSS animation is standard behavior.
+- **Lesson:** Static SVG renderers show the pre-animation frame — anything animated from opacity/dashoffset 0 must still be acceptable as a static image (name/caption kept static; only the rule draws in).
+
+## Summary (v3)
+
+- Changed: assets/banner.svg (regenerated)
+- Unchanged: README.md (same img path), docs/
+- Remaining: commit/push on user go
+- Key decisions: LightItalic over Italic (mini-ADR: bold italic read heavy/generic; light + gold hairline reads luxe). Vector paths over @font-face base64 embed (mini-ADR: paths are smaller for 2 short strings and immune to renderer font-loading policy).
+- Mistakes & dead ends: assumed CMU = Computer Modern and designed a LaTeX-figure concept around it; font turned out to be Chiang Mai University's — caption kept as visual detail, concept note dropped.
