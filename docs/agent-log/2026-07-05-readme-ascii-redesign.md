@@ -69,3 +69,42 @@
 - Remaining: commit/push on user go
 - Key decisions: LightItalic over Italic (mini-ADR: bold italic read heavy/generic; light + gold hairline reads luxe). Vector paths over @font-face base64 embed (mini-ADR: paths are smaller for 2 short strings and immune to renderer font-loading policy).
 - Mistakes & dead ends: assumed CMU = Computer Modern and designed a LaTeX-figure concept around it; font turned out to be Chiang Mai University's — caption kept as visual detail, concept note dropped.
+
+---
+
+# 2026-07-05 — Banner v4: visible starfield animation
+
+- **Action:** Regenerated assets/banner.svg — animation intensity rework.
+- **Why:** User report: boxes look static ("แบบ star ElysiaJS" wanted). Root cause: v3 motion below perception threshold — drift 26px over 80s (0.33px/s), twinkle on only 22% of boxes peaking at opacity 0.45. Not a rendering bug; a tuning bug.
+- **Result:** 60% of boxes twinkle (peak opacity 0.5–0.9 via --p CSS var, 2.5–6s staggered), 25% float ±16px (rotated boxes excluded — CSS transform would clobber their rotate() attribute), drift 48px/36s. 48 of 58 boxes animated. prefers-reduced-motion covers new .fl class.
+- **Lesson:** 📌 GENERAL: "subtle animation" has a floor — below ~1px/s or opacity delta <0.3 on small elements, motion reads as static. Tune against perception, not taste.
+- **Verification dead end:** Chrome MCP extension offline → could not screenshot-compare frames; opened http://127.0.0.1:8765/preview.html in user's browser for visual confirmation instead (img context = same as GitHub camo).
+
+---
+
+# 2026-07-06 — Banner v5: natural scatter, mixed shapes
+
+- **Action:** Regenerated assets/banner.svg — replaced 2-cluster gaussian placement with uniform rejection sampling (min distance 38px between shapes), added shape variety: 24 boxes, 23 four-point sparkle stars, 11 heart outlines (stroke only, no fill).
+- **Why:** User: shapes clustered unnaturally ("spash ไม่เกาะกลุ่ม... มีกล่อง มีดาว มีหัวใจ outline"). Poisson-style min-distance scatter reads as natural; pure uniform clumps by chance.
+- **Result:** 58 shapes, 47 animated (36 twinkle / 11 float). Structure fix: 3 nested groups per shape — outer translate/rotate attr, middle opacity+animation class, inner scale — because a CSS transform/opacity animation clobbers same-element presentation attributes (would have collapsed stars/hearts to 1px on float).
+- **Lesson:** 📌 GENERAL: CSS animation of `transform` on an SVG element replaces its `transform` attribute entirely (they're the same property). Layer transforms across nested groups when mixing attribute transforms with animated ones.
+
+---
+
+# 2026-07-06 — Banner v6: peeking cat over "(Meo)"
+
+- **Action:** Added vector cat (ears, closed eyes, whiskers, paws gripping the edge) that peeks above "(Meo)". Plan C per user choice: periodic peek (14s cycle, ~3s visible) + :hover pins it up where the SVG receives pointer events.
+- **Why:** GitHub embeds README images via <img> — no pointer events reach the SVG, so :hover alone would be dead on GitHub. Periodic CSS keyframe peek works everywhere; hover is a bonus on raw URL / meo.in.th (<object>/inline embeds).
+- **Result:** Cat slides up from behind a clipPath window above the word (hidden at translateY(50) in cat-local units — scale-independent). Hit rect with pointer-events:all over the word; vignette got pointer-events:none (it sat on top and would have swallowed hover). text_paths() now returns per-glyph x positions to locate "(Meo)". Static renderers show no cat (rest state = hidden) — intended. 24.5KB, valid XML, cat design verified via debug render with transform overridden to visible.
+- **Lesson:** 📌 GENERAL: interactivity in GitHub READMEs is a platform wall — <img> swallows all pointer events. Design for time-based motion as the baseline, gate pointer-based delight to contexts that receive events.
+- **Mini-ADR:** hover implemented as `.meog:hover .cat` + transition; on hover animation:none so the transition (spring cubic-bezier) takes over from keyframes. Rejected SMIL begin="mouseover" — same <img> limitation, worse ergonomics.
+
+## v6.1 — cat padding
+
+- **Action:** Cat anchor y 104→96, clip window bottom follows (28..96).
+- **Why:** Paws sat directly on glyph caps; user asked for breathing room. ~8px gap now.
+
+## v6.2 — hover fade
+
+- **Action:** Cat fades (opacity 0→1, 0.3s) alongside the slide on hover; peek keyframes now fade too. Unhover fades out via a 0.6s animation-delay window — base values + transition apply before the peek cycle resumes, avoiding the instant-hide jump.
+- **Lesson:** animation-delay on re-applied CSS animation doubles as a "transition grace period" — cheap way to get smooth exit when a keyframe animation would otherwise snap the element to its resting state.
